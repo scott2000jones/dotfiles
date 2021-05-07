@@ -1,4 +1,6 @@
 # Set background colour
+# swaybg -c '#113344' &
+swaybg -i wal.jpg &
 
-#swaybg -c '#113344' &
-swaybg -i /home/scott/Downloads/wal.jpg &
+# Start waybar
+waybar
