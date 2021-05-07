@@ -1,0 +1,13 @@
+<keyboard>
+	<keybind key="A-escape">
+		<action name="Exit"/>
+	</keybind>
+	<keybind key="A-Tab">
+		<action name="NextWindow"/>
+	</keybind>
+	<keybind key="A-Return">
+		<action name="Execute">
+			<command>wofi --show run</command>
+		</action>
+	</keybind>
+</keyboard>

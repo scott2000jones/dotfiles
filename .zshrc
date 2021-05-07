@@ -99,3 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 unsetopt nomatch
+export XDG_RUNTIME_DIR='/home/scott/.config/labwc/'
