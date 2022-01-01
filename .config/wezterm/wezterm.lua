@@ -91,6 +91,9 @@ return {
   keys = {
     {key="q", mods="CTRL",
      action=wezterm.action{CloseCurrentTab={confirm=true}}
+     },
+    {key="t", mods="CTRL",
+     action=wezterm.action{SpawnTab="CurrentPaneDomain"}
      }
   }
 }
